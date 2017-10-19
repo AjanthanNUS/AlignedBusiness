@@ -1,9 +1,6 @@
 package com.ajan.demo;
 
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class DialogDecoder {
 
@@ -21,10 +18,6 @@ public class DialogDecoder {
     }
 
     public static List<String> cleanDialog(String dialog) {
-        char[] charArray = dialog.toCharArray();
-
-        StringBuilder builder = new StringBuilder();
-        Set<Character> reconChars = DialogDecoder.getReconChars();
 
         Properties props = FileManager.loadProperties();
         Set<String> propNames = props.stringPropertyNames();
@@ -56,16 +49,6 @@ public class DialogDecoder {
                 cleanedPhrases.add(cleanedPhrase.toString());
             }
         }
-//        for (char c : charArray) {
-//            if (reconChars.contains(c)) {
-//                builder.append(c);
-//            } else {
-//                //Insert a space if not a valid char. Check for last char is space if not add.
-//                if (builder.lastIndexOf(" ") != builder.length() - 1) {
-//                    builder.append(" ");
-//                }
-//            }
-//        }builder.toString().trim();
         return cleanedPhrases;
     }
 

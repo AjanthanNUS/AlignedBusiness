@@ -30,7 +30,7 @@ public class TranslatorTest {
         String humPhrase = Translator.translatePhrase("eeeehk!");
         Assert.assertEquals("Expecting hello", "hello", humPhrase);
 
-         humPhrase = Translator.translatePhrase("eeeehk");
+        humPhrase = Translator.translatePhrase("eeeehk");
         Assert.assertEquals("Expecting null", null, humPhrase);
 
     }
