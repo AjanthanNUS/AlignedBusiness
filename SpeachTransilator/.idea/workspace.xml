@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad0f8333-9265-472f-9270-3ed72d916373" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ajan/demo/DialogDecoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/ajan/demo/DialogDecoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ajan/demo/MainApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/ajan/demo/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ajan/demo/Translator.java" afterPath="$PROJECT_DIR$/src/main/java/com/ajan/demo/Translator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/ajan/demo/DialogDecoderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ajan/demo/DialogDecoderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/ajan/demo/FileManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ajan/demo/FileManagerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/ajan/demo/TranslatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ajan/demo/TranslatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="langmaps.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="langmaps.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/langmaps.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -117,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DialogDecoderTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DialogDecoderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ajan/demo/DialogDecoderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -490,7 +484,7 @@
       <option name="presentableId" value="Default" />
       <updated>1508244582870</updated>
       <workItem from="1508244585835" duration="21996000" />
-      <workItem from="1508380963528" duration="408000" />
+      <workItem from="1508380963528" duration="1339000" />
     </task>
     <task id="LOCAL-00001" summary="Speach translator for dolphin to human is done. &#10;With the support for buggy NLP system">
       <created>1508381313785</created>
@@ -499,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508381313785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Import optimization and code formating">
+      <created>1508381399234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508381399234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -535,7 +536,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22404000" />
+    <option name="totallyTimeSpent" value="23335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -548,8 +549,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -578,7 +579,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Speach translator for dolphin to human is done. &#10;With the support for buggy NLP system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Speach translator for dolphin to human is done. &#10;With the support for buggy NLP system" />
+    <MESSAGE value="Import optimization and code formating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import optimization and code formating" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -629,14 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/langmaps.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -720,6 +714,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/langmaps.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
