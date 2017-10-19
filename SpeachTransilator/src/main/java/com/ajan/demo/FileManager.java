@@ -42,10 +42,8 @@ public class FileManager {
     }
 
     public static void writeToFile(String filePath, String content) {
-
         try {
                 Files.write(Paths.get(filePath), content.getBytes());
-
         } catch (IOException e) {
             e.printStackTrace();
         }

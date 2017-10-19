@@ -16,7 +16,6 @@ public class TranslatorTest {
         lines = new ArrayList<>();
         lines.add("dolphin_1: eeeehk! ehhhk ekhhh ehhhk");
         lines.add("dolphin_2: eeeehk?");
-
     }
 
     @Test
@@ -32,6 +31,5 @@ public class TranslatorTest {
 
         humPhrase = Translator.translatePhrase("eeeehk");
         Assert.assertEquals("Expecting null", null, humPhrase);
-
     }
 }
